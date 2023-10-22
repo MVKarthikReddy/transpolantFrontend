@@ -53,7 +53,7 @@ const handleClick = () => {
         <button onClick={handleSubmit}>Submit</button>
         {productInfo && (
           <div className='productInfo'>
-            <p>The price of {productInfo.title} provide by {productInfo.source} is ₹{productInfo.price.split('₹')[1]}</p>
+            <p>The price of {productInfo.title} provided by {productInfo.source} is ₹{productInfo.price.split('₹')[1]}</p>
             <img src={productInfo.thumbnail} alt="can't access image"/>
             <FcSpeaker className='t2s' onClick={() => {handleClick()}}
             />
